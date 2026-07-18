@@ -12,8 +12,9 @@ from playwright.async_api import async_playwright
 # ==========================
 # CONFIG
 # ==========================
+import os
 
-BOT_TOKEN = "8934081604:AAE3psqa1S8sbvOHnGlnm2i_u9NcHTGwzJ4"
+BOT_TOKEN = os.getenv("8934081604:AAE3psqa1S8sbvOHnGlnm2i_u9NcHTGwzJ4")
 WEBSITE = "https://version-common-redflamenco.vercel.app/"
 
 # ==========================
